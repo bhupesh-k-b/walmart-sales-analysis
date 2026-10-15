@@ -92,7 +92,7 @@ MYSQL_PORT=3308 MYSQL_DATABASE=walmart_test docker compose -p walmart-sales-test
 docker compose down
 ```
 
-CI runs against an isolated MySQL service. Tests cover duplicate-grain rejection, unknown stores, missing features, complete loading, negative sales, reporting exports, and forecast windows. Integration tests require a database name ending in `_test` and use temporary output folders. Do not point the rebuild pipeline at a database containing other work under the same table names.
+The CI template configures an isolated MySQL service. Tests cover duplicate-grain rejection, unknown stores, missing features, complete loading, negative sales, reporting exports, and forecast windows. Integration tests require a database name ending in `_test` and use temporary output folders. Do not point the rebuild pipeline at a database containing other work under the same table names.
 
 See [SQL](sql/), [data exports](data/processed/), and [resume bullets](docs/RESUME.md). MIT applies to original code; source data retains its original terms.
 
