@@ -1,0 +1,15 @@
+{
+  "rows_loaded": 421570,
+  "stores": 45,
+  "departments": 81,
+  "start_date": "2010-02-05",
+  "end_date": "2012-10-26",
+  "total_sales": "6737218987.11",
+  "negative_sales_rows": 1285,
+  "forecast_evaluation": {
+    "horizon": "rolling one-week-ahead; final 12 weeks",
+    "naive_wmae": 1119622.114375,
+    "seasonal_wmae": 1122689.1587500002,
+    "unit": "national weekly sales dollars; holiday weight 5, otherwise 1"
+  }
+}

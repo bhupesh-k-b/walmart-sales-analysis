@@ -1,0 +1,27 @@
+{
+  "publisher": "Walmart recruiting competition",
+  "source_page": "https://www.kaggle.com/competitions/walmart-recruiting-store-sales-forecasting/data",
+  "retrieved_on": "2026-10-15",
+  "license_note": "Original competition data terms apply; mirror Apache-2.0 claim does not replace original terms.",
+  "raw_data_redistributed": false,
+  "files": [
+    {
+      "filename": "features.csv",
+      "download_url": "https://huggingface.co/datasets/large-traversaal/Walmart-sales/resolve/d413ff9482a0f1fd3834daa64df3540961d834f6/features.csv",
+      "sha256": "56f4892cbfcd018afcb8703f8885bd520ef4bfdc4ee5d2f856cac6a1a3330de6",
+      "bytes": 592289
+    },
+    {
+      "filename": "stores.csv",
+      "download_url": "https://huggingface.co/datasets/large-traversaal/Walmart-sales/resolve/d413ff9482a0f1fd3834daa64df3540961d834f6/stores.csv",
+      "sha256": "88d146882923f04c85a24e0e0260a06ec09a173f3fb976a41b77b0d6003044d3",
+      "bytes": 532
+    },
+    {
+      "filename": "train.csv",
+      "download_url": "https://huggingface.co/datasets/large-traversaal/Walmart-sales/resolve/d413ff9482a0f1fd3834daa64df3540961d834f6/train.csv",
+      "sha256": "65834f65a2ddccc85d8f4bf6544f73625be553f8ca5f8fdee976b9d0c900e95d",
+      "bytes": 12842546
+    }
+  ]
+}
